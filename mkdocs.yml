@@ -1,0 +1,23 @@
+site_name: The Missing Manim Documentation
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Reference: quick-reference.md
+    - Core Concepts: core-concepts.md
+    - Common Patterns: patterns.md
+    - Use Case Index: use-case-index.md
+  - API Reference:
+    - Scenes: scenes.md
+    - Mobjects:
+      - Geometry: mobjects/geometry.md
+      - Text & Math: mobjects/text-math.md
+      - Grouping: mobjects/grouping.md
+      - Utilities: mobjects/utilities.md
+    - Animations:
+      - Creation: animations/creation.md
+      - Transformation: animations/transformation.md
+      - Fading: animations/fading.md
+      - Composition: animations/composition.md
+    - Utilities: utilities.md
